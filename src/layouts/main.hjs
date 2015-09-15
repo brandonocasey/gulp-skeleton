@@ -1,0 +1,7 @@
+{{<layout}}
+  {{$content}}
+	{{#data}}
+      <h2><a href="{{path}}">{{name}}</a></h2>
+	{{/data}}
+  {{/content}}
+{{/layout}}

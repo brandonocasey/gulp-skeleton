@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{title}}</title>
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+    <body>
+    {{$content}}
+        default content
+    {{/content}}
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
+</html>

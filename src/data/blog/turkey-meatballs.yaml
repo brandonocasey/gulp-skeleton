@@ -1,0 +1,55 @@
+name: 'Turkey Meatballs'
+description: ''
+images:
+  - file : 'image1.jpg'
+    text : 'Yum'
+source: 'http://www.yummly.com/recipe/Classic-turkey-meatballs-334004?prm-v1'
+feeds: 4
+# Measurements: Cloves, Teaspoon, Count, Tablespoon, Cup,
+# Millimeter, Pounds, Ounces, Pinch, Pint, Quart, Gallon,
+# Litre, grams, drop, jigger, gill, fifth, peck, bushel
+ingredients:
+  - name: 'Garlic'
+    measurement: 'Cloves'
+    count: 4
+    special:
+
+  - name: 'Egg'
+    measurement: 'Count'
+    count: 1
+    special:
+
+  - name: 'Bread Crumbs'
+    measurement: 'Cup'
+    count:  '1/3'
+    special:
+
+  - name: 'Salt'
+    measurement: 'Teaspoon'
+    count:  1
+    special:
+
+  - name: 'Pepper'
+    measurement: 'Teaspoon'
+    count:  1
+    special:
+
+  - name: 'Ground Turkey'
+    measurement: 'Pound'
+    count:  1
+    special:
+
+  - name: 'Parsley'
+    measurement: 'Tablespoon'
+    count: 1.5
+    special:
+
+# Types: Wait, Cook, Prep
+steps:
+  - text: 'Preheat oven to 350 degrees'
+    time: '5-10'
+    interval: 'Seconds'
+    type: 'Idle'
+    heat: '350'
+    scale: 'Farenheight'
+

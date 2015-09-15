@@ -1,0 +1,9 @@
+**/.DS_Store
+**/Thumbs.db
+node_modules
+dist
+build
+.gulpStorage
+bower_components
+out
+static-test/dest

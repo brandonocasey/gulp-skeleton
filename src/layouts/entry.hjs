@@ -1,0 +1,26 @@
+{{<layout}}
+  {{$content}}
+    {{#data}}
+	  {{#images}}
+	  <img src="/assets/img{{path}}/{{file}}" alt="{{name}}">
+	  {{/images}}
+      <h1>{{name}}</h1>
+      <p>{{description}}</p>
+      <ul>
+        <li>Feeds {{feeds}}</li>
+        <li>Steps {{steps.length}}</li>
+        <li><a href="{{source}}">Source</a></li>
+      </ul>
+      <ul>
+        {{#ingredients}}
+          <li>{{count}} {{measurement}} {{name}} {{special}}</li>
+        {{/ingredients}}
+      </ul>
+      <ol>
+        {{#steps}}
+          <li>{{text}}</li>
+        {{/steps}}
+      </ol>
+    {{/data}}
+  {{/content}}
+{{/layout}}
